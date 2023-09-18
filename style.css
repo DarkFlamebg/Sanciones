@@ -310,3 +310,60 @@ footer p {
         padding: 8px 0px;
     }
 }
+
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    
+    header {
+        padding: 10px 0; 
+    }
+
+    header .log {
+        font-size: 1.5em; 
+        margin: 20px 0; 
+    }
+
+    header ul {
+        flex-direction: column; 
+        text-align: center; 
+        margin-top: 10px; 
+    }
+
+    header ul li {
+        margin: 10px 0; 
+    }
+
+    .search-input {
+        width: 100%; 
+        margin: 10px 0;
+    }
+
+    
+    .container_inicio, .container_jail, .container_abuso_comandos, .container_faccion, .container_extras {
+        padding: 10px; 
+    }
+
+    .main-title {
+        font-size: 24px; 
+    }
+
+    .title-jail, .title-abuso-comandos, .tittle-faccion, .title-extras {
+        font-size: 20px; 
+    }
+
+    .text-content, .text-content-abuso-comandos {
+        font-size: 14px; 
+    }
+
+    .sancion, .sancion-abuso-comandos, .sancion-faccion, .sancion-extras {
+        padding: 8px; /
+    }
+
+    
+    .content-jail, .content-abuso-comandos, .content-faccion, .content-extras {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}
+
