@@ -1,0 +1,312 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+/*====ENCABEZADO====*/
+header a{
+    text-decoration: none;
+}
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+    z-index: 100000;
+    background: linear-gradient(90deg, rgb(112, 0, 93) 0%, rgb(129, 15, 139) 38%, rgb(112, 0, 93) 100%);
+}
+
+header .log{
+    position: relative;
+    font-weight:700 ;
+    color:#fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 40px;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
+    font-size: 1em;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color:#fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+}
+.menu ul li:last-child {
+    margin-right: 0;
+}
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+.menu input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.search-input {
+    border: 2px solid #ccc; 
+    border-radius: 3px;
+    padding: 8px; 
+    width: 200px; 
+    font-size: 1em; 
+    outline: none; 
+}
+
+/*====CONTENIDOS INICIO====*/
+.container_inicio{
+/*    margin-top: 50px;*/
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
+}
+.content-initial, .content-warning,
+.content-dude{
+    margin-left: 20px;
+}
+.main-title{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.second-title, .third-tittle{
+    font-size: 24px;
+    margin-top: 20px;
+    
+}
+.text-content{
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.content-list{
+    list-style: disc;
+    margin-left: 40px;
+}
+.list-adv, .list-mud{
+    font-size: 16px;
+    line-height: 1.8;
+}
+.section-image{
+    margin-top: -5.5rem;
+    float: right;
+}
+
+/*====CONTENIDO JAILS DIRECTOS====*/
+.container_jail {
+    background-color: #f2f2f2;
+    padding: 6px;
+    border-radius: 5px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
+    margin-top: 20px;
+}
+.title-jail {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 16px;
+}
+.text-content {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin: 0px 16px 15px 16px;
+}
+.sancion {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.sancion p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+.sancion img {
+    max-width: 100%; 
+}
+.content-jail {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto; 
+    grid-column-gap: 4px;
+    grid-row-gap: 7px;
+    grid-auto-flow: row; 
+}
+/*=======Contenido AC======*/
+.container_abuso_comandos {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
+}
+
+.title-abuso-comandos {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 16px;
+}
+
+.text-content-abuso-comandos {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin: 0px 16px 15px 16px;
+}
+
+.content-abuso-comandos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 10px; 
+    grid-row-gap: 20px; 
+}
+
+.sancion-abuso-comandos {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sancion-abuso-comandos p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.sancion-abuso-comandos img {
+    max-width: 100%; 
+    margin-top: 10px;
+}
+
+/*====CONTENIDO FACCIONES====*/
+.container_faccion{
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
+}
+.tittle-faccion{
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 16px;
+}
+.text-content{
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin: 0px 16px 15px 16px;
+}
+.sancion-faccion{
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.sancion-faccion p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+.sancion-faccion img {
+    max-width: 420px; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.content-faccion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 18px;
+}
+
+/*====CONTENIDO EXTRAS====*/
+.container_extras {
+    background-color: #f2f2f2;
+    padding: 6px;
+    border-radius: 5px;
+/*    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
+}
+
+.title-extras {
+    color: #ffc107; /* Cambia el color del título a gris oscuro */
+    padding: 12px; /* Aumenta el espacio interior del título */
+    text-align: center; /* Centra el texto del título */
+}
+
+.content-extras {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 2px;
+    grid-row-gap: 7px;
+    grid-auto-flow: row;
+}
+
+.sancion-extras {
+    background-color: #fff3e050;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: 1px solid #ff9800; 
+}
+
+.sancion-extras p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.sancion-extras img {
+    max-width: 420px;
+    border-radius: 5px; 
+}
+
+
+/* Estilos para el footer */
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    bottom: 0 !important;
+    padding: 6px 0px;
+    text-align: center;
+    background: rgba(11, 36, 52, 1);
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+    color: #999;
+}
+#year {
+    font-weight: bold;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 991px) {
+    footer {
+        padding: 8px 0px;
+    }
+}
