@@ -31,13 +31,6 @@ searchInput.addEventListener('input', () => {
 });
 
 
-
-
-
-
-
-
-//Muestra el año acutal
 const yearElement = document.querySelector('#year');
 const currentYear = new Date().getFullYear();
 if (yearElement) {
